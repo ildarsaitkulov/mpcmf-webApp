@@ -1,5 +1,5 @@
 {
-  "name": "mpcmf/mpcmf-web-app",
+  "name": "ildarsaitkulov/mpcmf-web-app",
   "license": "MIT",
   "type": "project",
   "version": "1.0.0",
@@ -14,10 +14,24 @@
       "email": "greevex@gmail.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:ildarsaitkulov/mpcmf-console.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:ildarsaitkulov/mpcmf-core.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:ildarsaitkulov/mpcmf-web.git"
+    }
+  ],
   "require": {
-    "mpcmf/mpcmf-core": "dev-master",
-    "mpcmf/mpcmf-console": "dev-master",
-    "mpcmf/mpcmf-web": "dev-master"
+    "ildarsaitkulov/mpcmf-core": "dev-master",
+    "ildarsaitkulov/mpcmf-console": "dev-master",
+    "ildarsaitkulov/mpcmf-web": "dev-master"
   },
   "autoload": {
     "psr-4": {
